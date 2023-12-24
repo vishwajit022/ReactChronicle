@@ -20,7 +20,7 @@
     </ul>
     <h2>Projects</h2>
     <ul>
-        <li><strong>Project One:</strong> Subtitle or brief description.</li>
+        <li><strong>Project 1:</strong> Accordion: Drop-down</li>
         <li><strong>Project Two:</strong> Subtitle or brief description.</li>
         <li><strong>Project Three:</strong> Subtitle or brief description.</li>
     </ul>
