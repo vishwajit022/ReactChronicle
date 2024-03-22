@@ -20,9 +20,9 @@
     </ul>
     <h2>Projects</h2>
     <ul>
-        <li><strong>Project 1:</strong> Accordion: Drop-down</li>
-        <li><strong>Project Two:</strong> Subtitle or brief description.</li>
-        <li><strong>Project Three:</strong> Subtitle or brief description.</li>
+        <li href="https://teracountdownchalu.netlify.app/"><strong>Project 1:</strong> CountDowntimer </li>
+        <li href="https://faqkibaat.netlify.app/"><strong>Project 2:</strong> FAQ : Dropdown(Accordion)</li>
+        <li href="https://modaljoboffer.netlify.app/"><strong>Project 3:</strong> Modal : Conditional Rendering </li>
     </ul>
     <p>Explore the projects to discover the narrative of ReactChronicle and enhance your skills in building powerful, responsive, and maintainable web applications.</p>
     <h2>Getting Started</h2>
