@@ -24,7 +24,7 @@
         <li ><strong>Project 2:</strong> <a href="https://faqkibaat.netlify.app/"> FAQ : Dropdown(Accordion)</a></li>
         <li ><strong>Project 3:</strong> <a href="https://modaljoboffer.netlify.app/">Modal : Conditional Rendering </a> </li>
     </ul>
-    <p>Explore the projects to discover the narrative of ReactChronicle and enhance your skills in building powerful, responsive, and maintainable web applications.</p>
+    <p>Explore the projects to discover the narrative of ReactChronicle and enhance your skills in building powerful, functional web applications.</p>
     <h2>Getting Started</h2>
     <p>To get started with a specific project, refer to the individual project documentation in the corresponding folder.</p>
     <h2>Contribution Guidelines</h2>
