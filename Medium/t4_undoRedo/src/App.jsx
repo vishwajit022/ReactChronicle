@@ -66,9 +66,23 @@ function App() {
       className="h-screen flex flex-col overflow-hidden justify-center items-center gap-10  w-full mx-auto text-white bg-slate-900"
     >
       <motion.div
+        style={{
+          position: "absolute",
+          left: position.x,
+          top: position.y,
+          width: 50,
+          height: 50,
+          borderRadius: "50%",
+          backgroundColor: "purple",
+          zIndex: 10,
+        }}
+        animate={{ rotate: 180 }}
+        transition={{ type: "spring" }}
+      />
+      <motion.div
         animate={{ scale: [0, 1, 0.5, 1] }}
         transition={{ times: [0, 0.1, 0.9, 1] }}
-        className="text-3xl font-medium"
+        className="text-3xl hover:text-4xl transition-all ease-in font-medium"
         style={{
           zIndex: 20,
         }}
@@ -115,21 +129,6 @@ function App() {
         </motion.button>
       </div>
       <div className="flex items-center gap-[15vw]">
-        <motion.div
-          style={{
-            position: "absolute",
-            left: position.x,
-            top: position.y,
-            width: 50,
-            height: 50,
-            borderRadius: "50%",
-            backgroundColor: "purple",
-            zIndex: 10,
-          }}
-          animate={{ rotate: 180 }}
-          transition={{ type: "spring" }}
-        />
-
         <div className=" flex items-center gap-5">
           {[-100, -10, -1].map((b, i) => (
             <motion.button

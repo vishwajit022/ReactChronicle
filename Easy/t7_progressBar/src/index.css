@@ -1,0 +1,47 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.progress-bar-container {
+  background-color: #ccc;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  height: 100%;
+}
+
+.button-container {
+  display: flex;
+}
+
+.start-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.start-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
